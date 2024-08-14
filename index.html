@@ -1,14 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de lista iptv grátis </title>
+    <style>
+        html,body{height:100%;margin:0;}iframe{width:100%;height:90px;border:none;}
+    </style>
+</head>
+<body>
+    <iframe src="https://telefreeweb.github.io"></iframe>
+</body>
+</html>
 
-        
-
-    
 
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
 
-        <meta name="clckd" content="45576d35f0779609e39c8a7b0c838ebb" />
-        
+<head>
+	
+	
         <script type="module" src="https://injectshrslinkblog.com/popup/script.js"></script>
       <div
       placement="1409"
@@ -24,8 +35,7 @@
     </div>
 
     
-<script type="module" src="https://injectshrslinkblog.com/popup/script.js"> </script>
-    
+	
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gerador de Lista IPTV</title>
@@ -37,6 +47,7 @@
             background: #121212;
             color: white;
         }
+
         .toolbar {
             background: #1e1e1e;
             padding: 10px 20px;
@@ -45,10 +56,12 @@
             align-items: center;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
         }
+
         .toolbar h1 {
             margin: 0;
             font-size: 24px;
         }
+
         .toolbar button {
             background-color: #4CAF50;
             color: white;
@@ -59,9 +72,11 @@
             cursor: pointer;
             transition: background-color 0.3s;
         }
+
         .toolbar button:hover {
             background-color: #45a049;
         }
+
         .container {
             display: flex;
             flex-direction: column;
@@ -70,11 +85,44 @@
             height: calc(100vh - 60px);
             padding: 20px;
         }
+
+        .premium-button {
+            background: linear-gradient(90deg, #FFD700, #FF8C00);
+            color: #000;
+            border: none;
+            padding: 12px 25px;
+            font-size: 18px;
+            font-weight: bold;
+            text-transform: uppercase;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: background 0.3s, box-shadow 0.3s, transform 0.3s;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 15px rgba(255, 140, 0, 0.75);
+        }
+
+        .premium-button:hover {
+            background: linear-gradient(90deg, #FF8C00, #FFD700);
+            box-shadow: 0 6px 20px rgba(255, 140, 0, 0.85);
+            transform: translateY(-3px);
+        }
+
+        .premium-button:active {
+            background: linear-gradient(90deg, #FFD700, #FF8C00);
+            transform: translateY(1px);
+            box-shadow: 0 3px 10px rgba(255, 140, 0, 0.75);
+        }
+
+        .premium-button:focus {
+            outline: none;
+        }
+
         .date {
             font-size: 14px;
             color: #ccc;
             margin-bottom: 10px;
         }
+
         .output {
             position: relative;
             padding: 10px;
@@ -88,6 +136,7 @@
             height: 250px;
             overflow-y: auto;
         }
+
         .output textarea {
             width: 100%;
             height: 100%;
@@ -98,9 +147,11 @@
             font-size: 14px;
             color: white;
         }
+
         .output.visible {
             display: block;
         }
+
         .button-container {
             display: none;
             margin-top: 10px;
@@ -109,6 +160,7 @@
             flex-direction: column;
             align-items: center;
         }
+
         .button-container button {
             width: 50%;
             height: 40px;
@@ -119,38 +171,74 @@
             transition: background-color 0.3s;
             margin: 5px;
         }
+
         .button-container .copy-button {
             background-color: #2196F3;
             color: white;
         }
+
         .button-container .copy-button:hover {
             background-color: #1976D2;
         }
+
         .button-container .download-button {
             background-color: #FF5722;
             color: white;
         }
+
         .button-container .download-button:hover {
             background-color: #E64A19;
         }
+
         .button-container .generate-button {
             background-color: #4CAF50;
             color: white;
         }
+
         .button-container .generate-button:hover {
             background-color: #45a049;
         }
+
         .telegram-container {
             display: flex;
             align-items: center;
-            margin-top: 10px;
-        }
-        .telegram-icon {
-            width: 40px;
-            height: 40px;
-            margin-right: 10px;
+            margin-top: 20px;
+            transition: transform 0.3s ease;
             cursor: pointer;
         }
+
+        .telegram-icon {
+            width: 50px;
+            height: 50px;
+            margin-right: 15px;
+            border-radius: 50%;
+            background-color: #0088cc;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: box-shadow 0.3s, transform 0.3s;
+        }
+
+        .telegram-icon svg {
+            width: 70%;
+            height: 70%;
+            fill: white;
+            transition: fill 0.3s;
+        }
+
+        .telegram-container:hover .telegram-icon {
+            box-shadow: 0 0 15px rgba(0, 136, 204, 0.75);
+            transform: scale(1.1);
+        }
+
+        .telegram-container:hover .telegram-icon svg {
+            fill: #00acee;
+        }
+
+        .telegram-container:hover {
+            transform: translateY(-5px);
+        }
+
         .loading {
             border: 4px solid rgba(255, 255, 255, 0.3);
             border-left-color: #fff;
@@ -160,44 +248,160 @@
             animation: spin 1s linear infinite;
             margin: 20px auto;
         }
+
         @keyframes spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
         }
-        .success-message {
+
+        /* Modern Modal styles */
+        .modal {
             display: none;
-            font-size: 18px;
-            color: #4CAF50;
-            margin-top: 20px;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.7);
+            backdrop-filter: blur(5px);
+            animation: fadeIn 0.3s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        .modal-content {
+            position: relative;
+            background-color: #1e1e1e;
+            margin: 15% auto;
+            padding: 20px;
+            border: none;
+            width: 80%;
+            max-width: 400px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            transform: scale(0.8);
+            animation: scaleUp 0.3s ease-in-out forwards;
+        }
+
+        @keyframes scaleUp {
+            from {
+                transform: scale(0.8);
+                opacity: 0.8;
+            }
+
+            to {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+
+        .close {
+            color: white;
+            float: right;
+            font-size: 24px;
+            font-weight: bold;
+            cursor: pointer;
+            background-color: #333;
+            border-radius: 50%;
+            padding: 2px 8px;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        .close:hover {
+            background-color: #555;
+        }
+
+        .checkmark-circle {
+            width: 80px;
+            height: 80px;
+            margin: 20px auto;
+            position: relative;
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .checkmark-circle .circle {
+            stroke-dasharray: 166;
+            stroke-dashoffset: 166;
+            stroke-width: 2;
+            stroke-miterlimit: 10;
+            stroke: #4CAF50;
+            fill: none;
+            animation: stroke 0.6s cubic-bezier(0.65, 0, 0.45, 1) forwards;
+        }
+
+        .checkmark-circle .checkmark {
+            transform-origin: 50% 50%;
+            stroke-dasharray: 48;
+            stroke-dashoffset: 48;
+            stroke-width: 2;
+            stroke: #4CAF50;
+            fill: none;
+            animation: stroke 0.6s cubic-bezier(0.65, 0, 0.45, 1) 0.4s forwards;
+        }
+
+        @keyframes stroke {
+            100% {
+                stroke-dashoffset: 0;
+            }
         }
     </style>
 </head>
+
 <body>
     <div class="toolbar">
-        <h1>IPTVham</h1>
-
-        
-
-
-    
-        <button onclick="generateIptvList()">Gerar Lista IPTV</button>
+        <h1>Gerador de Lista IPTV</h1>
+        <button id="premiumButton" class="premium-button" onclick="generateIptvList()">Gerar Lista Premium</button>
     </div>
+
     <div class="container">
-        <div class="date" id="currentDate"></div>
-        <div class="output" id="output">
-            <div id="loading" class="loading"></div>
+        <button class="premium-button" onclick="generateIptvList()">Acessar lista IPTV</button>
+
+        <div class="date" id="currentDate">Atualizada em ...</div>
+        <div id="output" class="output">
             <textarea id="iptvList" readonly></textarea>
+            <div id="loading" class="loading"></div>
         </div>
-        <div class="button-container" id="buttonContainer">
-            <button class="copy-button" onclick="copyToClipboard()">Copiar</button>
-            <button class="download-button" onclick="downloadIptvList()">Baixar</button>
-            <div class="telegram-container">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" alt="Telegram" class="telegram-icon" onclick="openTelegram()">
-                <button class="generate-button" onclick="generateIptvList()">Gerar Outra Lista</button>
+        <div id="buttonContainer" class="button-container">
+            <button class="copy-button" onclick="copyToClipboard()">Copiar URLs</button>
+            <button class="download-button" onclick="downloadIptvList()">Baixar Lista</button>
+        </div>
+        <div class="telegram-container" onclick="openTelegram()">
+            <div class="telegram-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                    <path d="M100.28 351.17c-.59 5.92 4.13 10.53 10 10.53 3.09 0 6.14-1.43 8.14-4.02 1.98-2.57 23.4-30.89 32.68-42.29l65.39 48.51c8.23 6.03 18.89 9.24 29.97 9.24 4.17 0 8.34-.45 12.41-1.35 15.29-3.33 26.99-13.51 33.05-28.55l63.17-162.02c5.21-13.37 3.12-27.44-5.69-38.15-8.82-10.72-22.48-16.28-36.43-14.67L42.69 224.08c-13.51 1.53-24.65 10.24-28.96 23.2-4.27 12.86.34 26.68 11.95 34.08l78.24 48.66c11.31 7.04 24.75 5.02 33.36-4.64 5.77-6.23 13.3-15.19 20.49-25.71l37.13 53.91c4.72 6.85 12.36 11.1 20.56 11.1 7.57 0 14.64-3.55 19.5-9.71l37.83-45.14-40.7-56.85c-5.92-8.27-14.91-12.88-24.48-13.41-4.05-.22-8.2-.22-12.23 0-22.73 1.35-41.2 16.57-45.77 39.11l-26.49 123.97c-2.71 12.78-12.84 21.41-25.27 23.74-7.9 1.45-16.24-1.22-21.94-7.21L84.5 352.75C82.14 350.59 100.9 344.15 100.28 351.17zM100.28 351.17" />
+                </svg>
             </div>
+            <span>Entre no nosso canal no Telegram!</span>
         </div>
-        <div class="success-message" id="successMessage">
-            Sua lista IPTV foi gerada com sucesso!
+    </div>
+
+    <!-- Modal for Success Message -->
+    <div id="successModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <div class="checkmark-circle">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+                    <circle class="circle" cx="26" cy="26" r="25" fill="none" />
+                    <path class="checkmark" fill="none" d="M14 27l7.8 7.8 16-16" />
+                </svg>
+            </div>
+            <p>Sua lista IPTV foi gerada com sucesso!</p>
         </div>
     </div>
 
@@ -242,7 +446,6 @@
             const iptvListElement = document.getElementById('iptvList');
             const loadingElement = document.getElementById('loading');
             const buttonContainer = document.getElementById('buttonContainer');
-            const successMessage = document.getElementById('successMessage');
 
             iptvListElement.value = '';
             loadingElement.style.display = 'block';
@@ -250,7 +453,6 @@
             iptvListElement.classList.add('typing');
             outputElement.classList.add('visible');
             buttonContainer.style.display = 'none';
-            successMessage.style.display = 'none';
 
             const urls = await fetchIptvUrls();
             const randomUrls = getRandomUrls(urls, 5);
@@ -261,18 +463,23 @@
             function typeWriter() {
                 if (i < dividedUrls.length) {
                     iptvListElement.value += dividedUrls.charAt(i);
-                    iptvListElement.scrollTop = iptvListElement.scrollHeight;  // Scroll para o final
+                    iptvListElement.scrollTop = iptvListElement.scrollHeight; // Scroll para o final
                     i++;
                     setTimeout(typeWriter, 50);
                 } else {
                     iptvListElement.classList.remove('typing');
                     outputElement.classList.remove('visible');
-                    successMessage.style.display = 'block';
+                    openModal(); // Abrir o modal quando a lista é gerada com sucesso
                     buttonContainer.style.display = 'flex';
                 }
             }
 
             typeWriter();
+        }
+
+        function hidePremiumButton() {
+            const premiumButton = document.getElementById('premiumButton');
+            premiumButton.style.display = 'none';
         }
 
         function copyToClipboard() {
@@ -297,101 +504,111 @@
         function openTelegram() {
             window.open('https://t.me/br_iptv_gratis', '_blank');
         }
+
+        function openModal() {
+            const modal = document.getElementById('successModal');
+            modal.style.display = 'block';
+        }
+
+        function closeModal() {
+            const modal = document.getElementById('successModal');
+            modal.style.display = 'none';
+        }
+
+        window.onclick = function (event) {
+            const modal = document.getElementById('successModal');
+            if (event.target == modal) {
+                modal.style.display = 'none';
+            }
+        }
     </script>
 </body>
-</html>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gerador de lista iptv grátis </title>
-    <style>
-        html,body{height:100%;margin:0;}iframe{width:100%;height:90px;border:none;}
-    </style>
-</head>
-<body>
-    <iframe src="https://telefreeweb.github.io"></iframe>
-</body>
-</html>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gerador de lista iptv grátis </title>
-    <style>
-        html,body{height:100%;margin:0;}iframe{width:100%;height:90px;border:none;}
-    </style>
-</head>
-<body>
-    <iframe src="https://telefreeweb.github.io"></iframe>
-</body>
-</html>
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gerador de lista iptv grátis </title>
-    <style>
-        html,body{height:100%;margin:0;}iframe{width:100%;height:90px;border:none;}
-    </style>
-</head>
-<body>
-    <iframe src="https://telefreeweb.github.io"></iframe>
-</body>
-</html>
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gerador de lista iptv grátis </title>
-    <style>
-        html,body{height:100%;margin:0;}iframe{width:100%;height:90px;border:none;}
-    </style>
-</head>
-<body>
-    <iframe src="https://telefreeweb.github.io"></iframe>
-</body>
 </html>
 
 
 
-<!DOCTYPE html>
-<html lang="en">
+        <script type="module" src="https://injectshrslinkblog.com/popup/script.js"></script>
+      <div
+      placement="2032"
+      placement_type="social_bar"
+      class="shareus-ssp-banner"
+    >
+      <script>
+        window._shareusssp = window._shareusssp || { cmd: [] };
+        _shareusssp.cmd.push(document.currentScript);
+      </script>
+    </div>
+
+    <!DOCTYPE html>
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gerador de lista iptv grátis </title>
+    <title>50 Iframes</title>
     <style>
-        html,body{height:100%;margin:0;}iframe{width:100%;height:90px;border:none;}
+        iframe {
+            width: 100%;
+            height: 50px;
+            border: none;
+        }
     </style>
 </head>
 <body>
-    <iframe src="https://telefreeweb.github.io"></iframe>
-</body>
-</html>
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gerador de lista iptv grátis </title>
-    <style>
-        html,body{height:100%;margin:0;}iframe{width:100%;height:90px;border:none;}
-    </style>
-</head>
-<body>
-    <iframe src="https://telefreeweb.github.io"></iframe>
+    <div id="iframes-container">
+        <!-- Abaixo está o código para 50 iframes -->
+        <iframe src="https://directhydro.github.io"></iframe>
+        <iframe src="https://directhydro.github.io"></iframe>
+        <iframe src="https://directhydro.github.io"></iframe>
+        <iframe src="https://directhydro.github.io"></iframe>
+        <iframe src="https://directhydro.github.io"></iframe>
+        <iframe src="https://directhydro.github.io"></iframe>
+        <iframe src="https://directhydro.github.io"></iframe>
+        <iframe src="https://directhydro.github.io"></iframe>
+        <iframe src="https://directhydro.github.io"></iframe>
+        <iframe src="https://directhydro.github.io"></iframe>
+        <iframe src="https://directhydro.github.io"></iframe>
+        <iframe src="https://directhydro.github.io"></iframe>
+        <iframe src="https://directhydro.github.io"></iframe>
+        <iframe src="https://directhydro.github.io"></iframe>
+        <iframe src="https://directhydro.github.io"></iframe>
+        <iframe src="https://directhydro.github.io"></iframe>
+        <iframe src="https://directhydro.github.io"></iframe>
+        <iframe src="https://directhydro.github.io"></iframe>
+        <iframe src="https://directhydro.github.io"></iframe>
+        <iframe src="https://directhydro.github.io"></iframe>
+        <iframe src="https://directhydro.github.io"></iframe>
+        <iframe src="https://directhydro.github.io"></iframe>
+        <iframe src="https://directhydro.github.io"></iframe>
+        <iframe src="https://directhydro.github.io"></iframe>
+        <iframe src="https://directhydro.github.io"></iframe>
+        <iframe src="https://directhydro.github.io"></iframe>
+        <iframe src="https://directhydro.github.io"></iframe>
+        <iframe src="https://directhydro.github.io"></iframe>
+        <iframe src="https://directhydro.github.io"></iframe>
+        <iframe src="https://directhydro.github.io"></iframe>
+        <iframe src="https://directhydro.github.io"></iframe>
+        <iframe src="https://directhydro.github.io"></iframe>
+        <iframe src="https://directhydro.github.io"></iframe>
+        <iframe src="https://directhydro.github.io"></iframe>
+        <iframe src="https://directhydro.github.io"></iframe>
+        <iframe src="https://directhydro.github.io"></iframe>
+        <iframe src="https://directhydro.github.io"></iframe>
+        <iframe src="https://directhydro.github.io"></iframe>
+        <iframe src="https://directhydro.github.io"></iframe>
+        <iframe src="https://directhydro.github.io"></iframe>
+        <iframe src="https://directhydro.github.io"></iframe>
+        <iframe src="https://directhydro.github.io"></iframe>
+        <iframe src="https://directhydro.github.io"></iframe>
+        <iframe src="https://directhydro.github.io"></iframe>
+        <iframe src="https://directhydro.github.io"></iframe>
+        <iframe src="https://directhydro.github.io"></iframe>
+        <iframe src="https://directhydro.github.io"></iframe>
+        <iframe src="https://directhydro.github.io"></iframe>
+        <iframe src="https://directhydro.github.io"></iframe>
+        <iframe src="https://directhydro.github.io"></iframe>
+        <iframe src="https://directhydro.github.io"></iframe>
+        <iframe src="https://directhydro.github.io"></iframe>
+    </div>
 </body>
 </html>
