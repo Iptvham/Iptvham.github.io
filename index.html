@@ -1,34 +1,10 @@
 <!DOCTYPE html>
-<html lang="pt">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Site Gerador de Lista IPTV</title>
-    <style>
-        /* Define que o corpo da página não deve ultrapassar a largura da tela */
-        body {
-            margin: 0;
-            padding: 0;
-            max-width: 100%;
-            overflow-x: hidden; /* Desativa o deslizamento horizontal */
-        }
-    </style>
-</head>
-<body>
-    <!-- Conteúdo da página -->
-</body>
-</html>
-
-
-
-<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-
-<script id="hydro_config" type="text/javascript">
-    window.Hydro_tagId = "2ddd75d6-950b-4be5-98d1-3f337a0ce74a";
-  </script>
-  <script id="hydro_script" src="https://track.hydro.online/"></script>
+    <script id="hydro_config" type="text/javascript">
+        window.Hydro_tagId = "2ddd75d6-950b-4be5-98d1-3f337a0ce74a";
+    </script>
+    <script id="hydro_script" src="https://track.hydro.online/"></script>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -183,7 +159,7 @@
             height: 30px;
             animation: spin 1s linear infinite;
             margin: 30px auto;
-            display: none; /* Inicialmente invisível */
+            display: none;
         }
 
         @keyframes spin {
@@ -233,24 +209,10 @@
         <h1>IPTVham <span class="github">.github.io</span></h1>
     </div>
 
-<script type="text/javascript">
-	atOptions = {
-		'key' : 'dad08f59948e5090b0b3745d58020595',
-		'format' : 'iframe',
-		'height' : 90,
-		'width' : 728,
-		'params' : {}
-	};
-</script>
-<script type="text/javascript" src="//www.topcreativeformat.com/dad08f59948e5090b0b3745d58020595/invoke.js"></script>
-
-
-
     <div class="container">
-        <button class="premium-button" id="generatePremiumButton" onclick="generateIptvList()">Gerar Lista IPTV </button>
+        <button class="premium-button" id="generatePremiumButton" onclick="redirectToAdAndGenerateList()">Gerar Lista IPTV</button>
         <div class="date" id="currentDate"></div>
         
-        <!-- Adicione o elemento de carregamento aqui -->
         <div class="loading" id="loadingSpinner"></div>
         
         <div class="output" id="output">
@@ -261,7 +223,7 @@
                 <button class="copy-button" onclick="copyToClipboard()">Copiar</button>
                 <button class="download-button" onclick="downloadIptvList()">Baixar</button>
             </div>
-            <button class="generate-button" onclick="generateIptvList()">Gerar Outra Lista</button>
+            <button class="generate-button" onclick="redirectToAdAndGenerateList()">Gerar Outra Lista</button>
         </div>
         <div class="success-message" id="successMessage">
             <p><strong>Sua lista IPTV foi gerada com sucesso!</strong></p>
@@ -313,6 +275,14 @@
                 result += characters.charAt(Math.floor(Math.random() * characters.length));
             }
             return result;
+        }
+
+        function redirectToAdAndGenerateList() {
+            // Abrir o site em uma nova aba
+            window.open('https://www.highratecpm.com/t9ikes5tdx?key=12de077f6f367aa26f893ad0ff434aa1', '_blank');
+            
+            // Começar a geração da lista IPTV
+            generateIptvList();
         }
 
         async function generateIptvList() {
@@ -399,6 +369,3 @@
     </script>
 </body>
 </html>
-
-<iframe src="https://www.highratecpm.com/t9ikes5tdx?key=12de077f6f367aa26f893ad0ff434aa1" width="100%" height="90" frameborder="0" scrolling="no"></iframe>
-
